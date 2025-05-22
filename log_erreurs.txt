@@ -1,0 +1,4 @@
+with open("log_erreurs.txt", "w") as f:
+    for ligne in log_erreurs:
+        f.write(ligne + "\n")
+
